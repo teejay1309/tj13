@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="includes/materialize.min.css">
+    <script defer src="https://friconix.com/cdn/friconix-0.1885.js"> </script>
+    <title></title>
+    <style media="screen">
+      @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+      body{
+        font-family: 'Poppins';
+        background: #000;
+      }
+      /* nav{
+        color:white !important;
+      }
+       */
+       .main-div{
+       background-image: url(includes/jimmy2.png);
+       background-size: cover;
+       background-attachment: fixed;
+       background-position:center center;
+      height: 100vh;
+      width: 100%;
+      background-repeat: no-repeat;
+     }
+    .logo-img{
+      width: 60px;
+      height: 60px;
+    }
+    .social-links{
+      width: fit-content;
+    }
+    .nav-link{
+        /* border: 2px solid white; */
+        color: white;
+        font-weight: bold;
+        background: #000;
+        margin-left: 5px;
+        margin-right: 5px; 
+        /* width: fit-content !important;
+        width: fit-content !important;
+        padding: 0% important;
+        margin-left: 5px;
+        margin-right: 5px; */
+    }
+    .main-title{
+        color: white;
+        font-weight: 1900;
+    }
+    .no-shadows {
+        box-shadow: none!important;
+    }
+    .main-title h1{
+        font-size: 100px;
+    }
+    .main-title h3{
+        font-size: 60px;
+        line-height: 30%;
+    }
+    .about-title{
+        color: white;
+        font-weight: bolder;
+    }
+    .about-1 img{
+        max-width: 500px;
+        max-height: 500px;
+        width: 100%;
+        min-width: 300px;
+        min-height: 300px;
+        box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1);
+    }
+    .about-me{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: white;
+    }
+    .about-1 , .about-2{
+        max-width: 400px;
+        margin: 30px;
+    }
+    .about-2{
+      
+    }
+    nav{
+        height: 100px !important;
+    }
+    .card{
+        width: 300px;
+        height: fit-content;
+        border: 2px solid rgb(255, 174, 0);
+    }
+    .project-card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .project-div{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .social-icons{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .skills-title{
+      color: white;
+      font-weight: bolder;
+    }
+    .skills{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .skill-1{
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    </style>
+  </head>
+  <body>
+
+    
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contacts</a></li>
+      <li><a href="#projects">My Projects</a></li>
+      <li><a href="#projects" class="amber">Send Msg Now</a></li>
+    </ul>
+
+    
+    
+    <div class="main-div" id="tsparticles">
+        <div class="navbar-fixed ">
+            <nav class="transparent no-shadows">
+              <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"><img class="logo-img" src="includes/logo.png" alt=""></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                  <li class="nav-link"><a href="#about">About Me</a></li>
+                  <li class="nav-link"><a href="#contact">Contacts</a></li>
+                  <li class="nav-link"><a href="#projects">My Projects</a></li>
+                  <li class="nav-link"><a href="#modal1" class="amber modal-trigger">Send Msg Now</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+          <div class="container text-white main-title">
+            <h1>Takudzwanashe James</h1>
+            <h3>Charamba</h3>
+            <p><i>My Personal Website</i></p>
+          </div>
+
+
+    </div>
+
+    <div class="about-me black container center-align" id="about">
+        <div class="about-1 center-align">
+            <h2 class="about-title center-align">About Me</h2>
+            <img src="includes/jimmy.png" alt="">
+        </div>
+
+        <div class="about-2 valign-wrapper ">
+            <p class="center-align">I am a Child of God.I have a lot of professions but the one that i am well known for is forex trading and mentoring. i am also a music producer and a rapper.God gave me too many talents. </p>
+            
+        </div>
+
+    </div>
+
+    <div class="container skills">
+      <h1 class="center-align skills-title">My Skills</h1>
+      
+      <div class="skill-1" id="sk-1">
+        <h5 class="center-align skills-title">Html & Css</h5>
+        <div class="progress orange darken-3">
+          <div class="determinate amber" style="width: 80%"></div>
+        </div>
+      </div>
+
+      <div class="skill-1" id="sk-2">
+        <h5 class="center-align skills-title">Python</h5>
+        <div class="progress orange darken-3">
+          <div class="determinate amber" style="width: 65%"></div>
+        </div>
+      </div>
+
+      <div class="skill-1" id="sk-3">
+        <h5 class="center-align skills-title">PHP</h5>
+        <div class="progress orange darken-3">
+          <div class="determinate amber" style="width: 40%"></div>
+        </div>
+      </div>
+
+      <div class="skill-1" id="sk-4">
+        <h5 class="center-align skills-title">C++ and C</h5>
+        <div class="progress orange darken-3">
+          <div class="determinate amber" style="width: 80%"></div>
+        </div>
+      </div>
+
+      <div class="skill-1" id="sk-5">
+        <h5 class="center-align skills-title">React</h5>
+        <div class="progress orange darken-3">
+          <div class="determinate amber" style="width: 50%"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="project-div" id="projects">
+
+        <h2 class="about-title center-align">My Projects</h2>
+
+        <div class="project-card container">
+            <div class="card" id="c-1">
+                <div class="card-image">
+                    <img src="includes/proj2.jpg">
+                  <span class="card-title">Twitter Bot</span>
+                </div>
+                <div class="card-content">
+                  <p>I am in the process of creating a twitter bot using some python scripts and the program
+                    is designed to be able to posts tweets on schedule and follow some profiles and gain lot of followers.
+                  </p>
+                </div>
+                
+              </div>
+    
+              <div class="card" id="c-2">
+                <div class="card-image">
+                    <img src="includes/proj3.jpg">
+                  <span class="card-title">Artificial Intelligence Bot </span>
+                </div>
+                <div class="card-content">
+                  <p>I have designed an Ai bot that uses different machine learning algorithms to send messages
+                    and also create responses to texts depending on the words they use, basically automated responses
+                  </p>
+                </div>
+                
+              </div>
+
+              <div class="card" id="c-3">
+                <div class="card-image">
+                    <img src="includes/proj4.jpg">
+                  <span class="card-title">Spotify API</span>
+                </div>
+                <div class="card-content">
+                  <p>Using a spotify API i am creating a replica website for spotify to be able to create playlists and discover new 
+                    music using the API provided by spotify
+                  </p>
+                </div>
+                
+              </div>
+    
+              <!-- <div class="card">
+                <div class="card-image">
+                  <img src="includes/proj1.jpg">
+                  <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-image">
+                  <img src="includes/proj1.jpg">
+                  <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p>
+                </div>  
+              </div> -->
+
+        </div>
+    </div>
+    
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h3 class="center-align">Hie lets get in touch!</h3>
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">First Name</label>
+                </div>
+                <div class="input-field col s12
+                >
+                  <i class="material-icons prefix">phone</i>
+                  <input id="icon_telephone" type="tel" class="validate">
+                  <label for="icon_telephone">Telephone</label>
+                </div>
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Send Me Message</label>
+                </div>
+                <button class="btn submit black">Submit</button>
+              </div>
+            </form>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+  </div>
+
+    <footer class="page-footer black white-text" id="contact">
+        <h2 class="about-title center-align">Contact Me</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Thank you for visiting!</h5>
+            <p class="grey-text text-lighten-4">You can share this website page if you like!</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text center-align">My Social Links</h5>
+            <ul class="social-icons">
+              <li class="foot-link"><a href="https://www.facebook.com"><i class=" fi-3x fi-snsuxl-facebook"></i></a></li>
+              <li class="foot-link"><a href="https://www.twitter.com"><i class="fi-3x fi-snsuxl-twitter"></i></a></li>
+              <li class="foot-link"><a href="https://www.instagram.com"><i class="fi-3x fi-snsuxl-instagram"></i></a></li>
+              <li><a href="https://www.github.com"><i class="fi-3x fi-snsuxl-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright amber darken-4">
+        <div class="container">
+        © 2020 Copyright Text
+        </div>
+      </div>
+    </footer>
+
+  <script src="includes/jquery-3.4.1.min.js" charset="utf-8"></script>
+  <script src="includes/materialize.js" charset="utf-8"></script>
+  <script src="includes/init.js" charset="utf-8"></script>
+  <script>
+    let anchorlinks = document.querySelectorAll('a[href^="#"]')
+ 
+ for (let item of anchorlinks) { // relitere 
+     item.addEventListener('click', (e)=> {
+         let hashval = item.getAttribute('href')
+         let target = document.querySelector(hashval)
+         target.scrollIntoView({
+             behavior: 'smooth',
+             block: 'start'
+         })
+         history.pushState(null, null, hashval)
+         e.preventDefault()
+     })
+ }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.18.1/tsparticles.min.js"
+  integrity="sha512-PYHWDEuXOTJ9MZ+/QHqkbgiEYZ+LImQv3i/9NyYOABFvK37e4q4Wg7aQDN1JpoGiEu1TYZh6JMrZluZox2gbDA=="
+  crossorigin="anonymous">
+  </script>
+
+<script>
+  $(document).ready(function(){
+     $('#modal1').modal();
+     $('#modal1').modal('open'); 
+  });
+ </script>
+
+<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"></script>
+<script type="text/javascript">
+$(function(){
+  window.sr = ScrollReveal();
+  sr.reveal('.card',{
+    duration: 2000,
+    origin: 'bottom'
+  });
+
+  sr.reveal('#sk-1',{
+    duration: 1000,
+    origin: 'bottom'
+  });
+
+  sr.reveal('#sk-2',{
+    duration: 2000,
+    origin: 'bottom'
+  });
+
+  sr.reveal('#sk-3',{
+    duration: 3000,
+    origin: 'bottom'
+  });
+
+  sr.reveal('#sk-4',{
+    duration: 3500,
+    origin: 'bottom'
+  });
+
+  sr.reveal('#sk-5',{
+    duration: 4000,
+    origin: 'bottom'
+  });
+
+  sr.reveal('#c-1',{
+    duration: 2000,
+    origin: 'bottom'
+  });
+
+  sr.reveal('#c-2',{
+    duration: 3000,
+    origin: 'bottom'
+  });
+
+  sr.reveal('#c-3',{
+    duration: 3500,
+    origin: 'bottom'
+  });
+
+  sr.reveal('.about-1',{
+    duration: 2000,
+    origin: 'left'
+  });
+
+  sr.reveal('.about-2',{
+    duration: 3000,
+    origin: 'right'
+  });
+
+  sr.reveal('footer',{
+    duration: 2000,
+    origin: 'bottom'
+  });
+
+  })
+</script>
+
+
+  </body>
+</html>
